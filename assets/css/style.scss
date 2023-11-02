@@ -8,10 +8,11 @@
 };
 
 .flex-child {
-    flex: 1;
+    flex: 9;
 }; 
 
 .flex-child:first-child {
+    flex: 1;
     margin-right: 10px;
     width: 76px;
 }; 
