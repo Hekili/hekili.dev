@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
@@ -20,14 +20,15 @@
   <body>
       <div id="header">
         <nav>
-          <ul>
-            <!-- <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+          <img class="logo" src="/assets/images/tacodog.png" />
+          <!-- <ul>
+            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
             {% if site.show_downloads %}
               <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
               <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
               <li class="title">DOWNLOADS</li>
-            {% endif %} -->
-          </ul>
+            {% endif %}
+          </ul> -->
         </nav>
       </div><!-- end header -->
 
