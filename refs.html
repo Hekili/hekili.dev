@@ -1,0 +1,24 @@
+---
+layout: default
+title: Hekili - Priority Helper for World of Warcraft
+theme: jekyll-pages-midnight
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for ref in site.refs %}
+  <h2>
+    <a href="{{ ref.url }}">
+      {{ ref.section }}
+    </a>
+  </h2>
+  <p>{{ ref.content | markdownify }}</p>
+{% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

@@ -1,3 +1,13 @@
 theme: jekyll-theme-midnight
 title: Hekili
 description: Priority Helper for World of Warcraft
+
+collections:
+  refs:
+    output: true
+    sort_by: section
+    order:
+     - priority
+     - action-lists
+
+collections_dir: collections
