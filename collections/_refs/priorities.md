@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Hekili - Priorities
+title: Priorities
 section: Priorities
 datatable: true
 theme: jekyll-pages-midnight
 datatable: true
 ---
+
+## {{ page.title }}
 
 Priorities are comprised of Action Lists, which are made up of Actions and their conditions.  This model is based on SimulationCraft, where a character profile will have two or more action lists.  The built-in action lists are `precombat` -- for actions before combat begins -- and the unnamed default once combat starts.
 
