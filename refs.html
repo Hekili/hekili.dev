@@ -10,13 +10,11 @@ theme: jekyll-pages-midnight
 
   <ul class="post-list">
     {% for ref in site.refs %}
-  <h2>
-    <a href="{{ ref.url }}">
-      {{ ref.section }}
-    </a>
-  </h2>
-  <p>{{ ref.content | markdownify }}</p>
-{% endfor %}
+      <h3><a href="{{ ref.url }}">{{ ref.section }}</a></h3>
+      <div class="datatable-begin"></div>
+      <p>{{ ref.content | markdownify }}</p>
+    {% endfor %}
+    <div class="datatable-end"></div>
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
